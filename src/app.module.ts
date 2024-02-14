@@ -25,8 +25,8 @@ import { PriceModule } from './price/price.module';
     TypeOrmModule.forRoot({
       name: 'default',
       type: 'mongodb',
-      url: "mongodb://127.0.0.1:27017",
-      // url:"mongodb+srv://LIT-Admin:xeZlZKjwImeW4HaH@onboarding-data.akudtdl.mongodb.net/",
+      // url: "mongodb://127.0.0.1:27017",
+      url:"mongodb+srv://LIT-Admin:xeZlZKjwImeW4HaH@onboarding-data.akudtdl.mongodb.net/",
       useNewUrlParser: true,
       entities: [
         "dist/**/*.entity{.ts,.js}"
